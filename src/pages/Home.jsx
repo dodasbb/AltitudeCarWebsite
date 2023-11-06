@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import HomeImage from "../assets/HomeImage.jpg"
+import Models from "../components/Models"
 
 function Home() {
   return (
@@ -14,6 +15,8 @@ function Home() {
         url="/inventory"
         btnClass="show"
       />
+
+      <Models/>
     </>
   );
 }

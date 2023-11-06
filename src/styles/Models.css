@@ -1,0 +1,118 @@
+.models {
+  margin-bottom: 135px;
+}
+
+.models:last-child {
+  margin-bottom: 40px;
+}
+
+.models__title {
+  font-size: 48px;
+  color: white;
+}
+
+.models__title--paragraph {
+  font-size: 20px;
+  margin-bottom: 28px;
+  color: white;
+}
+
+.model__img {
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.model__wrapper {
+  display: flex;
+  box-shadow: 0 2px 80px rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.model:hover .model__img {
+  transform: scale(1.07);
+}
+
+.models__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.model {
+  width: 50%;
+  padding: 24px;
+}
+
+.model__description {
+  position: absolute;
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 550px;
+  width: 95%;
+  height: 95%;
+  z-index: 3;
+  padding-left: 16px;
+}
+
+.model__description--title {
+  font-size: 32px;
+}
+
+.model__description--paragraph {
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.model__description--paragraph-cost {
+  padding: 8px 0;
+}
+
+.model__description--button {
+  cursor: not-allowed;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+}
+
+.model__description--button:hover {
+  background-color: #ff5539;
+  color: white;
+  transition: all 300ms ease;
+}
+
+@media (max-width: 550px) {
+
+  .model:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+    .model {
+        width: 100%;
+      }
+  .model__description--title {
+    font-size: 20px;
+  }
+
+  .model__description--paragraph {
+    font-size: 14px;
+  }
+
+  .model__description--paragraph-cost {
+    font-size: 14px;
+  }
+
+  .model__description--button {
+    display: block;
+  }
+}

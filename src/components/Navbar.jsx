@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Navbar.css";
-import { MenuItems } from "./MenuItems";
+import { MenuData } from "./MenuData";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -18,7 +18,7 @@ function Navbar() {
       <ul className={click ? "navbar__links active" : "navbar__links"}>
         {" "}
         {/* Cannot use dot, use space ^ */}
-        {MenuItems.map((item, index) => {
+        {MenuData.map((item, index) => {
           return (
             <li key={index}>
               <Link className={item.cName} to={item.url}>
@@ -28,7 +28,7 @@ function Navbar() {
             </li>
           );
         })}
-        <button>Apply</button>
+        <button className="navbar__button--apply">Apply</button>
       </ul>
     </nav>
   );

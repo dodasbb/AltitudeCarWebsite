@@ -28,7 +28,7 @@
   }
 }
 
-button {
+.navbar__button--apply {
   padding: 12px 24px;
   white-space: nowrap;
   border-radius: 8px;
@@ -39,7 +39,7 @@ button {
   transition: all 300ms ease;
 }
 
-button:hover {
+.navbar__button--apply:hover {
   background-color: #FF5539;
   color: white;
 }
@@ -134,7 +134,7 @@ button:hover {
     transition: none;
   }
 
-  button {
+  .navbar__button--apply {
     display: none;
   }
 
