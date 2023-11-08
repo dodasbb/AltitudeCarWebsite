@@ -1,8 +1,7 @@
 import React from "react";
-import GTRModel from "../assets/GTRModel.jpg";
-import HuracanModel from "../assets/GTRModel.jpg";
 import "../styles/Models.css";
-import ModelData from "./ModelData";
+import ModelExtend from "./ModelExtend";
+import { ModelData } from "./ModelData";
 
 function Models() {
   return (
@@ -14,24 +13,22 @@ function Models() {
             Browse your favorite supercars
           </p>
           <ul class="models__list">
-            <ModelData
-              heading="Nissan GT-R"
-              text="An unmatched blend of power and soul: the Nissan GT-R. Experience the singular supercar that sculpts the wind."
-              price="120,990"
-              img={GTRModel}
-            />
-
-            <ModelData
-              heading="Lamborghini Huracan"
-              text="The finest Italian craftsmanship lavished on finishes of unprecedented prestige and quality."
-              price="220,000"
-              img={GTRModel}
-            />
+            {ModelData.map((item) => {
+              return (
+                <ModelExtend
+                  heading={item.name}
+                  text={item.description}
+                  price={item.price}
+                  img={item.img}
+                  btntext={item.buttontext}
+                />
+              );
+            })}
           </ul>
         </div>
       </div>
     </section>
   );
-}
+} /* Use array mapping to make this even better */
 
 export default Models;

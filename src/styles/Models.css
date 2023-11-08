@@ -18,7 +18,6 @@
 }
 
 .model__img {
-  width: 100%;
   transition: all 500ms ease;
 }
 
@@ -28,6 +27,8 @@
   border-radius: 20px;
   overflow: hidden;
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .model:hover .model__img {
@@ -41,7 +42,7 @@
 
 .model {
   width: 50%;
-  padding: 24px;
+  padding: 32px;
 }
 
 .model__description {
@@ -60,26 +61,41 @@
 
 .model__description--title {
   font-size: 32px;
+  padding: 0px 16px;
 }
 
 .model__description--paragraph {
-  padding: 8px 0;
+  padding: 8px 16px;
   font-size: 16px;
 }
 
 .model__description--paragraph-cost {
-  padding: 8px 0;
+  padding: 8px 16px;
+}
+
+.model__description--button-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 16px;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.model__description--button-primary {
+  background-color: white !important;
+  color: #222 !important;
 }
 
 .model__description--button {
   cursor: not-allowed;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   padding: 10px;
   white-space: nowrap;
   background-color: transparent;
   border: 2px solid white;
-  border-radius: 8px;
+  border-radius: 4px;
   color: white;
 }
 
@@ -90,16 +106,26 @@
 }
 
 @media (max-width: 550px) {
-
   .model:not(:last-child) {
     margin-bottom: 24px;
+  }
+
+  .model__description--button-wrapper {
+    flex-direction: column !important;
   }
 }
 
 @media (max-width: 768px) {
-    .model {
-        width: 100%;
-      }
+  .model__description--button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .model {
+    width: 100%;
+  }
+
   .model__description--title {
     font-size: 20px;
   }
@@ -114,5 +140,34 @@
 
   .model__description--button {
     display: block;
+    font-size: 16px;
+  }
+
+  .model__description--button-wrapper {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .model__description--title {
+    font-size: 20px;
+  }
+
+  .model__description--paragraph {
+    font-size: 14px;
+  }
+
+  .model__description--paragraph-cost {
+    font-size: 14px;
+  }
+
+  .model__description--button {
+    display: block;
+    font-size: 14px;
+  }
+
+  .model__description--button-wrapper {
+    flex-direction: row;
   }
 }

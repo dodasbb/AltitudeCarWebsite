@@ -16,7 +16,6 @@ function Navbar() {
       </div>
 
       <ul className={click ? "navbar__links active" : "navbar__links"}>
-        {" "}
         {/* Cannot use dot, use space ^ */}
         {MenuData.map((item, index) => {
           return (
