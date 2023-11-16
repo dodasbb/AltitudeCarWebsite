@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import HomeImage from "../assets/HomeImage.jpg"
 import Models from "../components/Models"
+import FindDealer from "../components/FindDealer"
 
 function Home() {
   return (
@@ -17,6 +18,8 @@ function Home() {
       />
 
       <Models/>
+
+      <FindDealer/>
     </>
   );
 }
