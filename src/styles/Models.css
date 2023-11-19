@@ -1,6 +1,9 @@
 .models {
   margin-bottom: 135px;
-  background-color: #222;
+}
+
+.model__container {
+  background-color: #302f2f;
 }
 
 .models:last-child {

@@ -6,7 +6,7 @@ import { ModelData } from "./ModelData";
 function Models() {
   return (
     <section id="models">
-      <div className="container">
+      <div className="container model__container">
         <div className="row">
           <h1 className="models__title">Models</h1>
           <p className="models__title--paragraph">

@@ -10,7 +10,7 @@
   left: 2.5%;
   height: 84px;
   border-radius: 16px;
-  position: fixed;
+  position: absolute;
   top: 24px;
   z-index: 9999;
   animation: fade-down 400ms 650ms backwards;

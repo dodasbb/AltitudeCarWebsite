@@ -1,6 +1,8 @@
-import React from 'react'
+import React from "react";
 import Hero from "../components/Hero";
-import AboutImage from "../assets/InventoryImage.jpg"
+import AboutImage from "../assets/InventoryImage.jpg";
+import Models from "../components/Models";
+import Footer from "../components/Footer";
 
 function Inventory() {
   return (
@@ -11,8 +13,10 @@ function Inventory() {
         title="View Models"
         btnClass="none"
       />
+      <Models/>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default Inventory
+export default Inventory;

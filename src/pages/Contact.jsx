@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
-import AboutImage from "../assets/ContactImage.jpg"
+import AboutImage from "../assets/ContactImage.jpg";
+import Footer from "../components/Footer";
 
 function Contact() {
   return (
@@ -11,6 +12,8 @@ function Contact() {
         title="Contact Us"
         btnClass="none"
       />
+
+      <Footer />
     </>
   );
 }

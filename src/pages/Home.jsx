@@ -1,8 +1,9 @@
 import React from "react";
 import Hero from "../components/Hero";
-import HomeImage from "../assets/HomeImage.jpg"
-import Models from "../components/Models"
-import FindDealer from "../components/FindDealer"
+import HomeImage from "../assets/HomeImage.jpg";
+import Models from "../components/Models";
+import FindDealer from "../components/FindDealer";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -16,10 +17,9 @@ function Home() {
         url="/inventory"
         btnClass="show"
       />
-
-      <Models/>
-
-      <FindDealer/>
+      <Models />
+      <FindDealer />
+      <Footer />
     </>
   );
 }

@@ -4,7 +4,7 @@ import DealerImage from "../assets/DealerImage.jpg";
 
 function FindDealer() {
   return (
-    <section className="dealer">
+    <section id="dealer">
       <div className="dealer__container container">
         <div className="dealer__row">
           <div className="dealer__left">
