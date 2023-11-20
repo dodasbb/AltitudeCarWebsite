@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AltitudeCarWebsite/static/css/main.130c811c.css",
-    "main.js": "/AltitudeCarWebsite/static/js/main.4e296e3a.js",
+    "main.js": "/AltitudeCarWebsite/static/js/main.f431a1d6.js",
     "static/media/HuracanModel.jpg": "/AltitudeCarWebsite/static/media/HuracanModel.0d782e10bda8c7879e91.jpg",
     "static/media/720SImage.jpg": "/AltitudeCarWebsite/static/media/720SImage.00619659bfcfbcaf521b.jpg",
     "static/media/ContactImage.jpg": "/AltitudeCarWebsite/static/media/ContactImage.b13d5a6e2d07b33bf787.jpg",
@@ -13,10 +13,10 @@
     "static/media/GTRModel.jpg": "/AltitudeCarWebsite/static/media/GTRModel.f52e668deaa3a86ce545.jpg",
     "index.html": "/AltitudeCarWebsite/index.html",
     "main.130c811c.css.map": "/AltitudeCarWebsite/static/css/main.130c811c.css.map",
-    "main.4e296e3a.js.map": "/AltitudeCarWebsite/static/js/main.4e296e3a.js.map"
+    "main.f431a1d6.js.map": "/AltitudeCarWebsite/static/js/main.f431a1d6.js.map"
   },
   "entrypoints": [
     "static/css/main.130c811c.css",
-    "static/js/main.4e296e3a.js"
+    "static/js/main.f431a1d6.js"
   ]
 }
