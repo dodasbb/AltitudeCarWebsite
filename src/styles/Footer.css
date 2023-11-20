@@ -6,6 +6,7 @@ footer {
 .footer__heading {
   padding-bottom: 32px;
   text-align: center;
+  text-decoration: none;
 }
 
 .footer__heading--text,
@@ -66,6 +67,17 @@ footer {
   cursor: not-allowed;
 }
 
+@media (max-width: 550px) {
+  .footer__list {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer__list div {
+    padding-bottom: 12px;
+  }
+}
+
 @media (max-width: 768px) {
   .footer__heading {
     padding-bottom: 24px;
@@ -92,4 +104,3 @@ footer {
     padding-left: 12px; */
   }
 }
-
