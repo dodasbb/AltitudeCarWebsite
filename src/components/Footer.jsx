@@ -34,7 +34,7 @@ function Footer() {
               MODELS
             </a>
             <a
-              className="link__hover-effect link__hover-effect--white no__cursor"
+              className="link__hover-effect link__hover-effect--white"
               href="#dealer"
             >
               FIND CENTER
