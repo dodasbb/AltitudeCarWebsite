@@ -13,13 +13,13 @@ function Footer() {
         </div>
         <div className="footer__list">
           <div>
-            <a className="link__hover-effect link__hover-effect--white" href="/about">
+            <a className="link__hover-effect link__hover-effect--white" href="#/about">
               ABOUT
             </a>
-            <a className="link__hover-effect link__hover-effect--white" href="/inventory">
+            <a className="link__hover-effect link__hover-effect--white" href="#/inventory">
               INVENTORY
             </a>
-            <a className="link__hover-effect link__hover-effect--white" href="/contact">
+            <a className="link__hover-effect link__hover-effect--white" href="#/contact">
               CONTACT
             </a>
             <a className="link__hover-effect link__hover-effect--white" href="/apply">
@@ -62,7 +62,7 @@ function Footer() {
           </div>
           <div>
             <a className="link__hover-effect link__hover-effect--white no__cursor" href="">
-              CONTACT US
+              TERMS OF SERVICE
             </a>
             <a className="link__hover-effect link__hover-effect--white no__cursor" href="">
               COMPANY
