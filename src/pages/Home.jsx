@@ -16,7 +16,7 @@ function Home() {
         title="Altitude Motors"
         text="Adrenaline Inducing Speed"
         btnText="Inventory"
-        url="/inventory"
+        url="#/inventory"
         btnClass="show"
       />
       <Models />

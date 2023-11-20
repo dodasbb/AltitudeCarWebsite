@@ -10,7 +10,7 @@ function Hero(items) {
         <div className="hero__text">
           <h1>{items.title}</h1>
           <p>{items.text}</p>
-          <a href={items.url} className={items.btnClass}>{items.btnText}</a>
+          <a className={items.btnClass}>{items.btnText}</a>
         </div>
       </div>
     </>
