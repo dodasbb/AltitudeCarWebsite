@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AltitudeCarWebsite/static/css/main.0d47d082.css",
+    "main.js": "/AltitudeCarWebsite/static/js/main.981a6c80.js",
+    "static/media/HuracanModel.jpg": "/AltitudeCarWebsite/static/media/HuracanModel.0d782e10bda8c7879e91.jpg",
+    "static/media/720SImage.jpg": "/AltitudeCarWebsite/static/media/720SImage.00619659bfcfbcaf521b.jpg",
+    "static/media/ContactImage.jpg": "/AltitudeCarWebsite/static/media/ContactImage.b13d5a6e2d07b33bf787.jpg",
+    "static/media/HomeImage.jpg": "/AltitudeCarWebsite/static/media/HomeImage.3afca8d44e724eacd81e.jpg",
+    "static/media/AboutImage.jpg": "/AltitudeCarWebsite/static/media/AboutImage.11deb5774a7a57213973.jpg",
+    "static/media/InventoryImage.jpg": "/AltitudeCarWebsite/static/media/InventoryImage.c6e4b66be8c6b7e19107.jpg",
+    "static/media/911GT3RSImage.jpg": "/AltitudeCarWebsite/static/media/911GT3RSImage.bdf10dbebdbcfa7b4828.jpg",
+    "static/media/DealerImage.jpg": "/AltitudeCarWebsite/static/media/DealerImage.e531bfb67e19b5b61d24.jpg",
+    "static/media/GTRModel.jpg": "/AltitudeCarWebsite/static/media/GTRModel.f52e668deaa3a86ce545.jpg",
+    "index.html": "/AltitudeCarWebsite/index.html",
+    "main.0d47d082.css.map": "/AltitudeCarWebsite/static/css/main.0d47d082.css.map",
+    "main.981a6c80.js.map": "/AltitudeCarWebsite/static/js/main.981a6c80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d47d082.css",
+    "static/js/main.981a6c80.js"
+  ]
+}
