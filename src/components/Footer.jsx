@@ -22,7 +22,7 @@ function Footer() {
             <a className="link__hover-effect link__hover-effect--white" href="#/contact">
               CONTACT
             </a>
-            <a className="link__hover-effect link__hover-effect--white" href="/apply">
+            <a className="link__hover-effect link__hover-effect--white" href="#/apply">
               APPLY
             </a>
           </div>
