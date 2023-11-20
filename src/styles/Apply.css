@@ -1,0 +1,146 @@
+.apply__container {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.apply__img {
+  width: 60%;
+}
+
+.apply__form--container {
+  width: 40%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.apply__text {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.apply__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.apply__header {
+  padding-bottom: 48px;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.apply__welcome {
+  text-align: left;
+  padding-bottom: 24px;
+  font-size: 24px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.apply__form input {
+  height: 48px;
+  font-size: 16px;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: 1px solid #222;
+  padding: 0 16px;
+  margin-bottom: 24px;
+}
+
+.form__continue {
+  height: 48px;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: 1px solid #222;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  cursor: not-allowed;
+}
+
+.signup__para {
+  padding-top: 12px;
+  text-align: left;
+  font-size: 12px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.signup__button {
+  text-decoration: underline;
+  cursor: not-allowed;
+  color: black;
+}
+
+.return__home {
+  padding-top: 8px;
+  text-decoration: underline;
+  color: black;
+}
+
+
+
+@media (max-width: 1050px) {
+    .apply__img {
+        width: 100%;
+    }
+    
+    .apply__form--container {
+        width: 40% !important;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        box-shadow: 0 4px 16px 0 rgb(255, 255, 255, 0.5);
+        margin: 0 auto;
+    }
+    
+    .apply__text {
+        margin: 64px 0;
+        width: 70%;
+    }
+    
+    .apply__header {
+        padding-bottom: 32px;
+        font-size: 28px;
+    }
+    
+    .apply__welcome {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 900px) {
+    .apply__form--container {
+        width: 60% !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .apply__img {
+        display: none;
+    }
+
+    .apply__form--container {
+        position: relative !important;
+        border-radius: 0px !important;
+        box-shadow: 0 0 0 0 !important;
+        top: 0 !important;
+        left: 0 !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        transform: none !important;
+
+    }
+}

@@ -29,6 +29,6 @@ function Models() {
       </div>
     </section>
   );
-} /* Use array mapping to make this even better */
+}
 
 export default Models;

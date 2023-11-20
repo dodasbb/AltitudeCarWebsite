@@ -27,7 +27,9 @@ function Navbar() {
             </li>
           );
         })}
-        <button className="navbar__button--apply">Apply</button>
+        <Link to={"/apply"}>
+          <button className="navbar__button--apply">Apply</button>
+        </Link>
       </ul>
     </nav>
   );

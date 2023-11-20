@@ -5,6 +5,7 @@ footer {
 
 .footer__heading {
   padding-bottom: 32px;
+  text-align: center;
 }
 
 .footer__heading--text,
@@ -71,7 +72,7 @@ footer {
   }
 
   .footer__list a {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 12px;
   }
 
@@ -82,13 +83,13 @@ footer {
 
 @media (max-width: 900px) {
   .footer__heading {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: space-between;
     text-align: start;
     flex-wrap: wrap;
-    padding-left: 12px;
+    padding-left: 12px; */
   }
 }
 

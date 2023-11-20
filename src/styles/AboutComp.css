@@ -1,3 +1,26 @@
 .about__container {
-    background-color: white;
+  background-color: white;
+}
+
+.about__info--container {
+  width: 60%;
+  margin: 54px 84px;
+  text-align: start;
+}
+
+.about__info--title {
+  padding-bottom: 12px;
+}
+
+.about__info--para {
+  line-height: 1.5;
+  font-weight: 300;
+  padding-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+  .about__info--container {
+    width: 70%;
+    margin: 54px 64px;
+  }
 }
