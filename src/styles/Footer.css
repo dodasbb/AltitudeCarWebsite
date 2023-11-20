@@ -9,6 +9,11 @@ footer {
   text-decoration: none;
 }
 
+.footer__heading--a {
+  text-decoration: none;
+  color: white;
+}
+
 .footer__heading--text,
 .footer__heading {
   color: white;

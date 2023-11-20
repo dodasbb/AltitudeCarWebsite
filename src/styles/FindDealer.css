@@ -36,6 +36,7 @@
   font-weight: 700;
   font-size: 32px;
   padding: 6px 12px;
+  margin-top: 12px;
 }
 
 .dealer__description {
@@ -57,6 +58,7 @@
   font-size: 16px;
   font-weight: 500;
   padding: 12px;
+  margin-bottom: 12px;
   cursor: not-allowed;
   text-decoration: none;
   color: black;
@@ -114,4 +116,14 @@
     .dealer__button {
         font-size: 14px;
     }
+}
+
+@media (max-width: 550px) {
+  .dealer__title {
+    font-size: 20px;
+  }
+
+  .dealer__button {
+    padding: 8px;
+  }
 }

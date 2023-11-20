@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div className="row row__column">
         <div class="footer__heading">
-          <a href="#">
+          <a className="footer__heading--a" href="#">
             <h1 className="footer__heading--text">Altitude</h1>
           </a>
           <p className="footer__heading--p">Find Your Dream Car</p>

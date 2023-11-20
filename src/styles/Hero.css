@@ -86,25 +86,6 @@ img {
   transition: all 300ms ease;
 }
 
-/* Small handhelds */
-@media (max-width: 550px) {
-  .hero__text h1 {
-    font-size: 20px;
-  }
-
-  .hero__text p {
-    font-size: 16px;
-  }
-
-  .hero__text .show {
-    padding: 12px 0;
-    font-size: 16px !important;
-  }
-
-  .hero__about h1 {
-    text-align: center;
-  }
-}
 
 /* Larger handhelds */
 @media (max-width: 768px) {
@@ -121,4 +102,25 @@ img {
     font-size: 20px;
   }
 
+}
+
+/* Small handhelds */
+@media (max-width: 550px) {
+  .hero__text h1 {
+    font-size: 36px;
+  }
+
+  .hero__text p {
+    font-size: 18px;
+  }
+
+  .hero__text .show {
+    padding: 12px 0;
+    font-size: 16px;
+    width: 35%;
+  }
+
+  .hero__about h1 {
+    text-align: center;
+  }
 }
